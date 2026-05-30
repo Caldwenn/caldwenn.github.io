@@ -1,188 +1,430 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Privacy Policy — WalletConvertPlus</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gizlilik Politikası — WalletConvertPlus</title>
+  <meta name="description" content="WalletConvertPlus uygulaması gizlilik politikası — KVKK ve GDPR uyumlu">
   <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
-         background:#07101C;color:#C8D4E0;line-height:1.7;padding:0}
-    header{background:linear-gradient(135deg,#0D1A2E 0%,#07101C 100%);
-           border-bottom:1px solid rgba(0,204,170,0.18);padding:40px 24px 32px}
-    .logo{display:flex;align-items:center;gap:12px;margin-bottom:8px}
-    .logo-dot{width:32px;height:32px;border-radius:8px;
-              background:linear-gradient(135deg,#1E3D38,#091818);
-              border:2px solid #00CCAA;display:flex;align-items:center;
-              justify-content:center;font-size:18px;font-weight:900;color:#00EEBB}
-    h1{font-size:1.1rem;color:#8AA0B8;font-weight:400}
-    .app-name{font-size:1.6rem;font-weight:800;color:#E8F0F8}
-    main{max-width:760px;margin:0 auto;padding:40px 24px 80px}
-    .last-updated{font-size:0.82rem;color:#556677;margin-bottom:36px}
-    h2{color:#00CCAA;font-size:1.05rem;font-weight:700;
-       margin:32px 0 10px;letter-spacing:.3px}
-    p{margin-bottom:12px;color:#A8BACE;font-size:0.95rem}
-    ul{padding-left:20px;margin-bottom:12px}
-    li{color:#A8BACE;font-size:0.95rem;margin-bottom:6px}
-    .highlight{background:rgba(0,204,170,0.07);border-left:3px solid #00CCAA;
-               padding:14px 18px;border-radius:0 8px 8px 0;margin:16px 0}
-    .highlight p{color:#C8D8E4;margin:0}
-    footer{text-align:center;padding:24px;color:#3A4A5A;font-size:0.8rem;
-           border-top:1px solid rgba(255,255,255,0.05)}
-    a{color:#00CCAA;text-decoration:none}
-    a:hover{text-decoration:underline}
+    :root {
+      --bg: #fafafa;
+      --card: #ffffff;
+      --text: #1a1a1a;
+      --muted: #666;
+      --accent: #c89858;
+      --border: #e5e5e5;
+    }
+    * { box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      padding: 40px 32px;
+      border-radius: 12px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    h1 {
+      font-size: 28px;
+      margin: 0 0 6px;
+      color: var(--accent);
+    }
+    h2 {
+      font-size: 20px;
+      margin-top: 36px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+    h3 { font-size: 16px; margin-top: 24px; }
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+    .lang-switch {
+      text-align: right;
+      margin-bottom: 16px;
+    }
+    .lang-switch a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+      margin-left: 12px;
+    }
+    .lang-switch a.active { font-weight: 700; }
+    p, li { font-size: 15px; }
+    ul { padding-left: 22px; }
+    code {
+      background: #f0ede5;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: var(--accent);
+    }
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    a { color: var(--accent); }
   </style>
 </head>
 <body>
-<header>
-  <div class="logo">
-    <div class="logo-dot">+</div>
-    <div>
-      <div class="app-name">WalletConvertPlus</div>
-      <div style="color:#00CCAA;font-size:.78rem;font-weight:600;letter-spacing:.5px">
-        CURRENCY &amp; CRYPTO CONVERTER
-      </div>
+  <div class="container">
+
+    <div class="lang-switch">
+      <a href="#" id="tr-link" class="active">Türkçe</a>
+      <a href="#" id="en-link">English</a>
     </div>
+
+    <!-- ─────────────── TÜRKÇE ─────────────── -->
+    <section id="tr-section" class="lang-section active">
+      <h1>Gizlilik Politikası</h1>
+      <p class="meta">
+        <strong>WalletConvertPlus</strong><br>
+        Son güncelleme: 19 Mayıs 2026<br>
+        Geliştirici: Caldwenn<br>
+        İletişim: <a href="mailto:info@caldwenn.com">info@caldwenn.com</a>
+      </p>
+
+      <h2>1. Özet</h2>
+      <p>
+        WalletConvertPlus uygulaması, kullanıcı verilerini <strong>hiçbir sunucuya
+        yüklemez</strong>. Tüm cüzdan, alarm ve tercih bilgileriniz
+        <strong>sadece kendi cihazınızda</strong> saklanır. Hesap
+        oluşturmanıza, kişisel bilgi vermenize gerek yoktur.
+      </p>
+
+      <h2>2. Topladığımız Veriler</h2>
+      <h3>Doğrudan toplamadığımız</h3>
+      <ul>
+        <li>Ad, soyad, e-posta, telefon numarası, adres — <strong>Hiçbiri toplanmaz.</strong></li>
+        <li>Konum bilgisi — <strong>Talep edilmez.</strong></li>
+        <li>Kişiler listesi, fotoğraflar, mikrofon, kamera — <strong>Erişim yok.</strong></li>
+      </ul>
+
+      <h3>Cihazınızda yalnızca yerel olarak saklanan veriler</h3>
+      <p>Aşağıdaki veriler <strong>yalnızca telefonunuzun yerel
+      depolamasında</strong> saklanır. Bizim sunucularımıza, üçüncü taraflara
+      veya başka bir cihaza <strong>aktarılmaz</strong>:</p>
+      <ul>
+        <li>Oluşturduğunuz cüzdanlar ve içerdikleri varlıklar (örn. "5 BTC", "1000 USD")</li>
+        <li>Fiyat alarmları (örn. "BTC 100.000$ üstüne çıkarsa bildir")</li>
+        <li>Görünen ad (isteğe bağlı, Ayarlar'dan girdiyseniz)</li>
+        <li>Tema (koyu/açık) ve dil tercihi</li>
+        <li>Pro üyelik durumu (Google Play satın alma ile bağlantılı)</li>
+      </ul>
+      <p>
+        Uygulamayı sildiğinizde veya telefonunuzu sıfırladığınızda bu
+        verilerin tamamı silinir. Bizim elimizde herhangi bir kopya yoktur.
+      </p>
+
+      <h2>3. Üçüncü Taraf Hizmetler</h2>
+      <p>
+        Aşağıdaki üçüncü taraf hizmetlerini kullanıyoruz. Bu hizmetlerin
+        kendi gizlilik politikaları geçerlidir:
+      </p>
+
+      <h3>3.1 Fiyat veri kaynakları (kimlik bilginiz paylaşılmaz)</h3>
+      <ul>
+        <li><a href="https://www.frankfurter.app/docs/" target="_blank">Frankfurter.dev</a> — ECB döviz kurları</li>
+        <li><a href="https://www.exchangerate-api.com/" target="_blank">ExchangeRate-API (open.er-api.com)</a> — Fiat çapraz kur</li>
+        <li><a href="https://www.coingecko.com/en/api" target="_blank">CoinGecko</a> — Kripto para fiyatları</li>
+        <li><a href="https://www.swissquote.com/" target="_blank">Swissquote</a> — Değerli metal spot fiyatları</li>
+      </ul>
+      <p>
+        Bu hizmetler yalnızca güncel fiyat verisi almak için çağrılır.
+        Hiçbir kullanıcı kimliği, hesap bilgisi veya kişisel veri
+        paylaşılmaz.
+      </p>
+
+      <h3>3.2 Google AdMob (reklam)</h3>
+      <p>
+        Ücretsiz sürümde reklam gösterimi için
+        <a href="https://policies.google.com/privacy" target="_blank">Google AdMob</a>
+        kullanılmaktadır. AdMob, reklam kişiselleştirme için cihazınızın
+        reklam kimliğine (AAID) erişebilir. Bu kimliği Ayarlar &gt; Google
+        &gt; Reklamlar menüsünden sıfırlayabilir veya kişiselleştirmeyi
+        kapatabilirsiniz. Pro üyeler için reklam gösterilmez.
+      </p>
+
+      <h3>3.3 Google Play Billing (satın alma)</h3>
+      <p>
+        Pro üyelik ve bağış satın alımları
+        <a href="https://policies.google.com/privacy" target="_blank">Google Play Billing</a>
+        üzerinden işlenir. Ödeme bilgileriniz tarafımızca <strong>asla
+        görülmez veya saklanmaz</strong> — tüm işlem Google'ın altyapısı
+        üzerinden gerçekleşir. Bizim aldığımız bilgi sadece "satın alma
+        başarılı" tokenidir.
+      </p>
+
+      <h2>4. Çocukların Gizliliği</h2>
+      <p>
+        WalletConvertPlus uygulaması 13 yaş altı kullanıcıları hedeflemez. Bilerek
+        13 yaş altı kullanıcılardan veri toplamayız. Eğer bir velisi
+        olarak çocuğunuzun bu uygulamayı kullandığını ve veri girdiğini
+        düşünüyorsanız, uygulamayı kaldırmanızı öneririz (tüm veriler
+        silinir).
+      </p>
+
+      <h2>5. Veri Güvenliği</h2>
+      <p>
+        Verileriniz yalnızca yerel cihazınızda saklandığı için sunucu
+        sızıntısı riskine maruz kalmazlar. Yine de cihaz güvenliğini
+        sağlamanız önerilir:
+      </p>
+      <ul>
+        <li>Telefonunuzu PIN/parola/biyometrik ile koruyun</li>
+        <li>Bilinmeyen kaynaklardan uygulama yüklemeyin</li>
+        <li>Cihazınızı root'lamayın (root'lu cihazda yerel veri açıkta kalabilir)</li>
+      </ul>
+
+      <h2>6. California Sakinleri İçin (CCPA / CPRA)</h2>
+      <p>
+        California Tüketici Gizliliği Yasası (CCPA) kapsamında California
+        sakinlerinin ek hakları vardır. Açıkça beyan ederiz:
+      </p>
+      <ul>
+        <li><strong>"Do Not Sell My Personal Information"</strong> —
+          WalletConvertPlus kişisel verileri <strong>üçüncü taraflara satmaz</strong>,
+          ticari amaçla paylaşmaz. Veri toplamadığımız için "satılacak
+          veri" zaten yoktur.</li>
+        <li>AdMob reklam kimliği (AAID) reklam kişiselleştirme için Google
+          tarafından kullanılır. Bunu Ayarlar &gt; Google &gt; Reklamlar
+          menüsünden <strong>tamamen devre dışı bırakabilirsiniz</strong>.</li>
+        <li>Talep ve sorular için:
+          <a href="mailto:info@caldwenn.com">info@caldwenn.com</a></li>
+      </ul>
+
+      <h2>7. KVKK ve GDPR Hakları</h2>
+      <p>
+        Kişisel Verilerin Korunması Kanunu (KVKK, Türkiye) ve General
+        Data Protection Regulation (GDPR, Avrupa) kapsamında aşağıdaki
+        haklara sahipsiniz:
+      </p>
+      <ul>
+        <li><strong>Erişim hakkı</strong> — Verileriniz zaten yalnızca cihazınızda; uygulama içinden görüntüleyebilirsiniz.</li>
+        <li><strong>Silme hakkı</strong> — Uygulamayı kaldırmanız tüm verileri siler.</li>
+        <li><strong>Düzeltme hakkı</strong> — Tüm veriler uygulama içinden düzenlenebilir.</li>
+        <li><strong>İtiraz hakkı</strong> — Reklam kişiselleştirmesini cihaz ayarlarından kapatabilirsiniz.</li>
+      </ul>
+      <p>
+        Bu haklardan herhangi biri hakkında yardım için
+        <a href="mailto:info@caldwenn.com">info@caldwenn.com</a>
+        adresinden bize ulaşabilirsiniz.
+      </p>
+
+      <h2>8. Bu Politikadaki Değişiklikler</h2>
+      <p>
+        Bu gizlilik politikası zaman zaman güncellenebilir. Önemli
+        değişikliklerde uygulama içi bildirim göstereceğiz. Son güncelleme
+        tarihi bu sayfanın başında belirtilmiştir.
+      </p>
+
+      <h2>9. İletişim</h2>
+      <p>
+        Gizlilik politikası veya veri kullanımı hakkında sorularınız için:
+      </p>
+      <ul>
+        <li>E-posta: <a href="mailto:info@caldwenn.com">info@caldwenn.com</a></li>
+      </ul>
+    </section>
+
+    <!-- ─────────────── ENGLISH ─────────────── -->
+    <section id="en-section" class="lang-section">
+      <h1>Privacy Policy</h1>
+      <p class="meta">
+        <strong>WalletConvertPlus</strong><br>
+        Last updated: May 19, 2026<br>
+        Developer: Caldwenn<br>
+        Contact: <a href="mailto:info@caldwenn.com">info@caldwenn.com</a>
+      </p>
+
+      <h2>1. Summary</h2>
+      <p>
+        WalletConvertPlus <strong>does not upload any user data to any server</strong>.
+        All wallets, alerts, and preferences are stored
+        <strong>only on your device</strong>. No account creation or
+        personal information is required.
+      </p>
+
+      <h2>2. Data We Collect</h2>
+      <h3>What we DO NOT collect</h3>
+      <ul>
+        <li>Name, surname, email, phone, address — <strong>none collected.</strong></li>
+        <li>Location — <strong>not requested.</strong></li>
+        <li>Contacts, photos, microphone, camera — <strong>no access.</strong></li>
+      </ul>
+
+      <h3>Data stored locally on your device only</h3>
+      <p>The following data is stored <strong>only in your phone's local
+      storage</strong>. It is <strong>not transmitted</strong> to our
+      servers, third parties, or any other device:</p>
+      <ul>
+        <li>Wallets you create and the assets they contain (e.g., "5 BTC", "1000 USD")</li>
+        <li>Price alerts (e.g., "Notify me when BTC exceeds $100,000")</li>
+        <li>Display name (optional, if you set one in Settings)</li>
+        <li>Theme (dark/light) and language preference</li>
+        <li>Pro membership status (linked to Google Play purchase)</li>
+      </ul>
+      <p>
+        When you uninstall the app or reset your phone, all this data is
+        deleted. We retain no copy.
+      </p>
+
+      <h2>3. Third-Party Services</h2>
+      <p>
+        We use the following third-party services. Their own privacy
+        policies apply:
+      </p>
+
+      <h3>3.1 Price data sources (no identity shared)</h3>
+      <ul>
+        <li><a href="https://www.frankfurter.app/docs/" target="_blank">Frankfurter.dev</a> — ECB forex rates</li>
+        <li><a href="https://www.exchangerate-api.com/" target="_blank">ExchangeRate-API</a> — Fiat cross rates</li>
+        <li><a href="https://www.coingecko.com/en/api" target="_blank">CoinGecko</a> — Crypto prices</li>
+        <li><a href="https://www.swissquote.com/" target="_blank">Swissquote</a> — Precious metals spot rates</li>
+      </ul>
+      <p>
+        These services are called only to fetch live price data. No user
+        identity, account info, or personal data is shared.
+      </p>
+
+      <h3>3.2 Google AdMob (advertising)</h3>
+      <p>
+        The free version displays ads via
+        <a href="https://policies.google.com/privacy" target="_blank">Google AdMob</a>.
+        AdMob may access your device's Advertising ID (AAID) for ad
+        personalization. You can reset this ID or disable personalization
+        in Settings &gt; Google &gt; Ads. Pro users see no ads.
+      </p>
+
+      <h3>3.3 Google Play Billing (purchases)</h3>
+      <p>
+        Pro subscriptions and donations are processed via
+        <a href="https://policies.google.com/privacy" target="_blank">Google Play Billing</a>.
+        Your payment information is <strong>never seen or stored by
+        us</strong> — the entire transaction happens through Google's
+        infrastructure. We only receive a "purchase successful" token.
+      </p>
+
+      <h2>4. Children's Privacy</h2>
+      <p>
+        WalletConvertPlus is not targeted at users under 13. We do not knowingly
+        collect data from users under 13. If you are a parent and believe
+        your child has used this app, we recommend uninstalling it (all
+        data is deleted).
+      </p>
+
+      <h2>5. Data Security</h2>
+      <p>
+        Because your data is stored only locally on your device, it is
+        not exposed to server breach risks. However, we recommend keeping
+        your device secure:
+      </p>
+      <ul>
+        <li>Protect your phone with PIN/password/biometrics</li>
+        <li>Do not install apps from unknown sources</li>
+        <li>Do not root your device (local data can be exposed on rooted devices)</li>
+      </ul>
+
+      <h2>6. For California Residents (CCPA / CPRA)</h2>
+      <p>
+        Under the California Consumer Privacy Act (CCPA) California
+        residents have additional rights. We explicitly state:
+      </p>
+      <ul>
+        <li><strong>"Do Not Sell My Personal Information"</strong> —
+          WalletConvertPlus <strong>does not sell</strong> personal data to third
+          parties or share it for commercial purposes. Since we collect
+          no data, there is no "data to sell" to begin with.</li>
+        <li>The Advertising ID (AAID) is used by Google for ad
+          personalization. You can
+          <strong>disable this entirely</strong> in Settings &gt; Google
+          &gt; Ads on your device.</li>
+        <li>For requests and questions:
+          <a href="mailto:info@caldwenn.com">info@caldwenn.com</a></li>
+      </ul>
+
+      <h2>7. KVKK and GDPR Rights</h2>
+      <p>
+        Under the Personal Data Protection Law (KVKK, Turkey) and the
+        General Data Protection Regulation (GDPR, EU), you have the
+        following rights:
+      </p>
+      <ul>
+        <li><strong>Right of access</strong> — Your data is already only on your device; you can view it inside the app.</li>
+        <li><strong>Right to erasure</strong> — Uninstalling the app deletes all data.</li>
+        <li><strong>Right to rectification</strong> — All data can be edited inside the app.</li>
+        <li><strong>Right to object</strong> — You can disable ad personalization in your device settings.</li>
+      </ul>
+      <p>
+        For help with any of these rights, contact us at
+        <a href="mailto:info@caldwenn.com">info@caldwenn.com</a>.
+      </p>
+
+      <h2>8. Changes to This Policy</h2>
+      <p>
+        This privacy policy may be updated from time to time. We will
+        show an in-app notification for significant changes. The last
+        update date is shown at the top of this page.
+      </p>
+
+      <h2>9. Contact</h2>
+      <p>
+        For questions about this privacy policy or data usage:
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:info@caldwenn.com">info@caldwenn.com</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      © 2026 WalletConvertPlus · Caldwenn
+    </footer>
   </div>
-  <h1>Privacy Policy</h1>
-</header>
 
-<main>
-  <p class="last-updated">Last updated: April 24, 2026</p>
+  <script>
+    const trLink = document.getElementById('tr-link');
+    const enLink = document.getElementById('en-link');
+    const trSection = document.getElementById('tr-section');
+    const enSection = document.getElementById('en-section');
 
-  <div class="highlight">
-    <p>
-      <strong style="color:#E8F0F8">Short version:</strong>
-      WalletConvertPlus does not collect, store, or share any personal information.
-      All your data stays on your device.
-    </p>
-  </div>
+    function setLang(lang) {
+      if (lang === 'tr') {
+        trSection.classList.add('active');
+        enSection.classList.remove('active');
+        trLink.classList.add('active');
+        enLink.classList.remove('active');
+        document.documentElement.lang = 'tr';
+      } else {
+        enSection.classList.add('active');
+        trSection.classList.remove('active');
+        enLink.classList.add('active');
+        trLink.classList.remove('active');
+        document.documentElement.lang = 'en';
+      }
+    }
 
-  <h2>1. Introduction</h2>
-  <p>
-    Welcome to WalletConvertPlus ("we", "our", or "us"). This Privacy Policy describes how
-    WalletConvertPlus ("the App") handles information when you use our
-    mobile application available on the Google Play Store.
-  </p>
-  <p>
-    By using the App, you agree to the terms described in this policy.
-    If you disagree with any part of this policy, please discontinue use
-    of the App.
-  </p>
+    trLink.addEventListener('click', e => { e.preventDefault(); setLang('tr'); });
+    enLink.addEventListener('click', e => { e.preventDefault(); setLang('en'); });
 
-  <h2>2. Information We Collect</h2>
-  <p>
-    <strong style="color:#E8F0F8">We collect no personal information.</strong>
-    The App does not require account creation, login, or any form of
-    identification.
-  </p>
-  <p>The only data the App stores is:</p>
-  <ul>
-    <li>Your wallet names and asset amounts (stored locally on your device using Hive)</li>
-    <li>Your price alarm settings (stored locally on your device)</li>
-    <li>Your portfolio entries (stored locally on your device)</li>
-    <li>Your subscription status (stored locally via SharedPreferences)</li>
-  </ul>
-  <p>
-    None of this data is transmitted to our servers or any third party.
-    It exists solely on your device and is deleted when you uninstall the App.
-  </p>
-
-  <h2>3. Exchange Rate Data</h2>
-  <p>
-    The App fetches live exchange rate data from the following public,
-    free-to-use APIs:
-  </p>
-  <ul>
-    <li>
-      <strong style="color:#E8F0F8">Binance Public API</strong>
-      (<a href="https://api.binance.com" target="_blank">api.binance.com</a>) —
-      for cryptocurrency prices. No API key or account is required.
-      These requests contain no identifying information.
-    </li>
-    <li>
-      <strong style="color:#E8F0F8">Frankfurter.app</strong>
-      (<a href="https://api.frankfurter.app" target="_blank">api.frankfurter.app</a>) —
-      for fiat currency rates sourced from the European Central Bank.
-      No API key or account is required.
-      These requests contain no identifying information.
-    </li>
-  </ul>
-
-  <h2>4. Advertising</h2>
-  <p>
-    The free tier of the App may display advertisements served by
-    <strong style="color:#E8F0F8">Google AdMob</strong>.
-    AdMob may collect device identifiers and usage data as described in
-    <a href="https://policies.google.com/privacy" target="_blank">
-      Google's Privacy Policy
-    </a>.
-    You can opt out of personalized advertising through your device settings
-    (Settings → Privacy → Ads on Android).
-  </p>
-  <p>
-    Pro subscribers see no advertisements.
-  </p>
-
-  <h2>5. In-App Purchases</h2>
-  <p>
-    Pro subscription purchases are processed entirely by the
-    <strong style="color:#E8F0F8">Google Play Store</strong>.
-    We do not receive, store, or process any payment card information.
-    All billing is handled by Google as described in
-    <a href="https://pay.google.com/intl/en/about/terms/" target="_blank">
-      Google Payments Terms of Service
-    </a>.
-  </p>
-
-  <h2>6. Permissions</h2>
-  <p>The App requests the following Android permissions:</p>
-  <ul>
-    <li>
-      <strong style="color:#E8F0F8">INTERNET</strong> — required to fetch
-      live exchange rates from Binance and Frankfurter APIs, and to
-      display advertisements.
-    </li>
-    <li>
-      <strong style="color:#E8F0F8">ACCESS_NETWORK_STATE</strong> — used
-      to check whether an internet connection is available before making
-      network requests, to improve offline experience.
-    </li>
-  </ul>
-
-  <h2>7. Children's Privacy</h2>
-  <p>
-    The App is not directed at children under the age of 13.
-    We do not knowingly collect any information from children under 13.
-    If you believe a child has provided us with personal information,
-    please contact us so we can remove it.
-  </p>
-
-  <h2>8. Data Security</h2>
-  <p>
-    Since all user data is stored locally on your device, its security
-    depends on your device's own security mechanisms (screen lock, encryption).
-    We recommend keeping your device updated and using a strong screen lock.
-  </p>
-
-  <h2>9. Changes to This Policy</h2>
-  <p>
-    We may update this Privacy Policy from time to time. Any changes will be
-    posted on this page with an updated "Last updated" date. Continued use
-    of the App after changes constitutes acceptance of the new policy.
-  </p>
-
-  <h2>10. Contact Us</h2>
-  <p>
-    If you have any questions about this Privacy Policy, please contact us at:
-  </p>
-  <p>
-    <a href="mailto:info@caldwenn.com">info@caldwenn.com</a>
-  </p>
-</main>
-
-<footer>
-  &copy; 2026 WalletConvertPlus. All rights reserved.
-</footer>
+    // Tarayıcı dili EN ise EN ile aç
+    if (navigator.language && navigator.language.startsWith('en')) {
+      setLang('en');
+    }
+  </script>
 </body>
 </html>
